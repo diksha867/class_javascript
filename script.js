@@ -34,3 +34,22 @@
 //     console.log(str[i])
 //     i=i+1
 // }
+//constant
+//  const print=()=> console.log("sample")
+//  print()
+//  print()
+
+// const para=document.getElementById("para")
+// para.textcontent="this is updated para"
+// para.style.color="blue"
+// para.backgroundcolor="yellow"
+// console.log(para)
+
+// const para=document.querySelectorAll(".para")
+// para[0].textContent="this is updated one"
+// para[1].style.color="green"
+// console.log(para)
+
+// const container=document.querySelector(".container")
+// container.innerHTML="<h1>this is a paragraph </h1>"
+// console.log(container)
