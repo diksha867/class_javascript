@@ -53,3 +53,43 @@
 // const container=document.querySelector(".container")
 // container.innerHTML="<h1>this is a paragraph </h1>"
 // console.log(container)
+// const interval=setInterval
+
+// #callback
+// console.log("Starting homework.....");
+
+//   setTimeout(()=>{
+//       console.log("Homework done!")
+//       console.log("Starting Dinner.....");
+//    setTimeout(()=>{
+//       console.log("Dinner Done!");
+//       console.log("Getting ready to go out....");
+//       setTimeout(()=>{
+//         console.log("Going to the Playground!");
+//         }, 1000);
+//     }, 1500);
+//   }, 2000);
+// function finishHomework(callback) {
+//   console.log("Starting Homework....");
+//   setTimeout(() => {
+//     console.log("Homework Done!");
+//     callback();
+//   },2000);
+// }
+// function EatDinner(callback) {
+//   console.log("Starting Dinner....");
+//   setTimeout(() => {
+//     console.log("Dinner Done!");
+//     callback();
+//   },1500);
+// }
+// function goToPlayground() {
+//   console.log("Going to Playground....");
+// }
+// finishHomework(() => {
+//   EatDinner(() => {
+//     goToPlayground();
+//   });
+// });
+// const p= new Promise((res,rej) => {
+//   console.log("Going to do the homwwork!!")
