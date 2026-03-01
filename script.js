@@ -93,3 +93,41 @@
 // });
 // const p= new Promise((res,rej) => {
 //   console.log("Going to do the homwwork!!")
+//   setTimeout(()=>{
+//     const done=true;
+//     if(done){
+//       res("Success")
+//     }else{
+//       rej("Failed to fetch Data from the server")
+//     }
+//   },3000)
+// })
+
+// p.then((a) => {
+// console.log(a)
+// })
+
+// callback hell
+// function finishHomework(callback){
+//     console.log("starting homework");
+//     setTimeout(() => {
+//         console.log("Homework completed");
+//         callback();
+//     }   , 2000);    
+
+// }
+// function eatDinner(callback){
+//     console.log("starting Dinner");
+//     setTimeout(() => {
+//         console.log("Dinner completed");
+//         callback();
+//     }   , 1500);
+// }
+// function goToPlayground(){
+//     console.log("Going to the Playground");
+// }
+// finishHomework(() => {
+//     eatDinner(() => {
+//         goToPlayground();
+//     });
+// });  
