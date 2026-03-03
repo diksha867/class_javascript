@@ -196,3 +196,42 @@
 
 //     }
 //     )
+// function orderfood(){
+//     return new Promise((res,rej)=>{
+//         setTimeout(()=>{
+//             console.log("Food ordered")
+//             res()
+//         },2000)
+//     })
+// }
+
+
+// function prepareFood(){
+//     return new Promise((res,rej)=>{
+//         setTimeout(()=>{
+//             console.log("Food Prepared")
+//             res()
+//             //rej ("Order cancelled")
+//         },2000)
+//     })
+// }
+
+
+// function deliverFood(){
+//     return new Promise((res,rej)=>{
+//         setTimeout(()=>{
+//             console.log("Food Delivered")
+//             res()
+//         },2000)
+//     })
+// }
+
+// async function FoodOrder(){
+//     await orderfood()
+//     await prepareFood()
+//     await deliverFood()
+//     console.log("Enjoy your Food")
+// }
+// FoodOrder()
+
+
