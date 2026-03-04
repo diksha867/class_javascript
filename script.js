@@ -250,5 +250,21 @@
 //     console.log("Finally block")
 // }
 // console.log("Second line")
-
+// async function getData(){
+//     try{
+//     const response=await fetch("https://dummyjson.com/products")
+//     const data=await  response.json()
+//     console.log(response.ok)
+//     if(!response.ok){
+//         throw new Error("Something went wrong")
+//     }
+//     data.products.forEach((products)=>{
+//         console.log("product.title")
+//     })
+//     }
+//     catch(e){
+//     console.log(e)
+//     }
+// }
+// getData()
 
