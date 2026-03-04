@@ -233,5 +233,22 @@
 //     console.log("Enjoy your Food")
 // }
 // FoodOrder()
+// console.log("it's the First Line")
+// try{
+//     let age=19;
+//     if(age<18){
+//         throw new Error("You are not eligible")  
+//     }
+//     let sample;
+//     for(let i=0;i<10,i++;){
+//         sample=i
+//     }
+// }catch(error) {
+//    console.log(error)
+//     throw new Error("Something went wrong")
+// }finally{
+//     console.log("Finally block")
+// }
+// console.log("Second line")
 
 
