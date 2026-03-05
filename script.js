@@ -267,6 +267,26 @@
 //     }
 // }
 // getData()
-//try catch topic ends......
+// #localstorage
+
+// let obj={
+//     name:Mahi,
+//     age:19
+// }
+// localStorage.setItem("obj",JSON.stringify(obj))
+// localStorage.setItem("name","diksha")
+// localStorage.setItem("age",18)
+// console.log(localStorage.getItem("name"))
+// console.log(localStorage.getItem("age"))
+
+// console.log(JSON.parse(localStorage.getItem("obj")))
+// localStorage.removeItem("name")
+
+// sessionStorage.setItem("name", "diksha");
+// sessionStorage.setItem("age", 18);
+// console.log(sessionStorage.getItem("name"));
+// console.log(sessionStorage.getItem("age"));
+
+
 
 
