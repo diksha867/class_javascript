@@ -287,6 +287,10 @@
 // console.log(sessionStorage.getItem("name"));
 // console.log(sessionStorage.getItem("age"));
 
-
+// document.cookie = "username=diksha; expires=Fri, 20 feb 2026 23:59:59 UTC;";
+// document.cookie = "age=18; expires=Fri, 20 feb 2026 23:59:59 UTC;";
+// async function sample() {
+//     await fetch("http://127.0.0.1:5500/o.html") 
+// }
 
 
