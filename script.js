@@ -294,5 +294,4 @@
 // }
 // sample()
 
-//new topic will be started from here
-//i will be covering the topics of object oriented programming in javascript in the next class
+//20th commit
