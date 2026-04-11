@@ -12,11 +12,11 @@ function HomePage(){
 //             <button>login</button>
 //         )
 //     }
+
 //ternary operaton:
     return(
         loggedin?<button>LOGOUT</button>:<button>LOGIN</button>
     )
 }
-
 
 export default HomePage
