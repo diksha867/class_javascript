@@ -15,8 +15,9 @@ function Article(props) {
             <button onClick={handleIncreamnet}>Increment</button>
             {/* <button onClick={handleDecrement}>Decrement</button> */}
         </div>
+        
     )
-    
+
 }
 
 export default Article;
