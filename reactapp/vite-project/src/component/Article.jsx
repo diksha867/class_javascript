@@ -17,6 +17,7 @@ function Article(props) {
         </div>
     )
 }
+
 export default Article;
 
 
