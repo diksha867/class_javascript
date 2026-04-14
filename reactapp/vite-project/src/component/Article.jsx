@@ -17,6 +17,7 @@ function Article(props) {
         </div>   
     )
 }
+
 export default Article;
 const button=styled.button`
 background-color:${props=>props.blue?'blue':'gray'};
