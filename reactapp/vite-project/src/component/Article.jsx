@@ -14,14 +14,15 @@ function Article(props) {
             <h2>{count}</h2>
             <button onClick={handleIncreamnet}>Increment</button>
             {/* <button onClick={handleDecrement}>Decrement</button> */}
-        </div>
-        
+        </div>   
     )
-
 }
-
 export default Article;
-
-
+const button=styled.button`
+background-color:${props=>props.blue?'blue':'gray'};
+color:white;
+padding:10px;
+border-radius:5px;
+`
 
 
